@@ -61,3 +61,16 @@ form input.op{
 color: #33ffd8;
 
 }
+
+@media (max-width: 480px) {
+    .calculator {
+        width: 80%; /* Adjust the width for smaller screens */
+    }
+
+    .calculator form input {
+        width: 40px; /* Adjust button width for smaller screens */
+        height: 40px; /* Adjust button height for smaller screens */
+        font-size: 16px; /* Adjust font size for smaller screens */
+        margin: 5px; /* Adjust button margin for smaller screens */
+    }
+}
